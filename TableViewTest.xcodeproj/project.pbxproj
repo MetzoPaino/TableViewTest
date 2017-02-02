@@ -12,6 +12,7 @@
 		0A79B3241E4336960054ACC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B3221E4336960054ACC0 /* Main.storyboard */; };
 		0A79B3261E4336960054ACC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B3251E4336960054ACC0 /* Assets.xcassets */; };
 		0A79B3291E4336960054ACC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A79B3271E4336960054ACC0 /* LaunchScreen.storyboard */; };
+		0A79B3311E4336B00054ACC0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79B3301E4336B00054ACC0 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0A79B3251E4336960054ACC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A79B3281E4336960054ACC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A79B32A1E4336960054ACC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A79B3301E4336B00054ACC0 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				0A79B31E1E4336960054ACC0 /* AppDelegate.swift */,
 				0A79B3201E4336960054ACC0 /* ViewController.swift */,
+				0A79B3301E4336B00054ACC0 /* TableViewController.swift */,
 				0A79B3221E4336960054ACC0 /* Main.storyboard */,
 				0A79B3251E4336960054ACC0 /* Assets.xcassets */,
 				0A79B3271E4336960054ACC0 /* LaunchScreen.storyboard */,
@@ -96,7 +99,6 @@
 				TargetAttributes = {
 					0A79B31A1E4336960054ACC0 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 8X8DXQ3254;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A79B3211E4336960054ACC0 /* ViewController.swift in Sources */,
+				0A79B3311E4336B00054ACC0 /* TableViewController.swift in Sources */,
 				0A79B31F1E4336960054ACC0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,10 +262,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8X8DXQ3254;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TableViewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thefloow.TableViewTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamrobinson.TableViewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,10 +275,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8X8DXQ3254;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TableViewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thefloow.TableViewTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamrobinson.TableViewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
